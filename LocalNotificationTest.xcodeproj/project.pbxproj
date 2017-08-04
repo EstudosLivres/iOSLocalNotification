@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75860AA01F0513D8005215F8 /* TestLocalNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75860A9F1F0513D8005215F8 /* TestLocalNotificationTests.swift */; };
-		75860AAB1F0513D8005215F8 /* TestLocalNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75860AAA1F0513D8005215F8 /* TestLocalNotificationUITests.swift */; };
 		75EF36641F32776500BBDF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EF36631F32776500BBDF0C /* Assets.xcassets */; };
 		75EF36671F32778500BBDF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF36651F32778500BBDF0C /* AppDelegate.swift */; };
 		75EF36681F32778500BBDF0C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EF36661F32778500BBDF0C /* Info.plist */; };
@@ -38,11 +36,7 @@
 /* Begin PBXFileReference section */
 		75860A871F0513D8005215F8 /* LocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75860A9B1F0513D8005215F8 /* LocalNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75860A9F1F0513D8005215F8 /* TestLocalNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalNotificationTests.swift; sourceTree = "<group>"; };
-		75860AA11F0513D8005215F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75860AA61F0513D8005215F8 /* LocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75860AAA1F0513D8005215F8 /* TestLocalNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalNotificationUITests.swift; sourceTree = "<group>"; };
-		75860AAC1F0513D8005215F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EF36631F32776500BBDF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LocalNotificationTest/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		75EF36651F32778500BBDF0C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LocalNotificationTest/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		75EF36661F32778500BBDF0C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LocalNotificationTest/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -106,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				75860A891F0513D8005215F8 /* LocalNotificationTest */,
-				75860A9E1F0513D8005215F8 /* LocalNotificationTests */,
-				75860AA91F0513D8005215F8 /* LocalNotificationUITests */,
 				75860A881F0513D8005215F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,26 +126,6 @@
 			);
 			name = LocalNotificationTest;
 			path = TestLocalNotification;
-			sourceTree = "<group>";
-		};
-		75860A9E1F0513D8005215F8 /* LocalNotificationTests */ = {
-			isa = PBXGroup;
-			children = (
-				75860A9F1F0513D8005215F8 /* TestLocalNotificationTests.swift */,
-				75860AA11F0513D8005215F8 /* Info.plist */,
-			);
-			name = LocalNotificationTests;
-			path = TestLocalNotificationTests;
-			sourceTree = "<group>";
-		};
-		75860AA91F0513D8005215F8 /* LocalNotificationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75860AAA1F0513D8005215F8 /* TestLocalNotificationUITests.swift */,
-				75860AAC1F0513D8005215F8 /* Info.plist */,
-			);
-			name = LocalNotificationUITests;
-			path = TestLocalNotificationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75860AA01F0513D8005215F8 /* TestLocalNotificationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75860AAB1F0513D8005215F8 /* TestLocalNotificationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
